@@ -1,10 +1,14 @@
 <!DOCTYPE html>
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justun. Howards Academic Page Academic Page</title>
     <style>
+        title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
         body {
