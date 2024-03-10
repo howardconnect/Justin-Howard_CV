@@ -67,7 +67,7 @@
 </head>
 <body>
     <header>
-        <h1>Professor Jane Doe</h1>
+        <h1>Justin N. Howard</h1>
     </header>
     <nav>
         <ul>
@@ -78,7 +78,7 @@
     <div class="container">
         <section id="about-me" class="content-section">
             <h2>About Me</h2>
-            <p>I am Professor Jane Doe, teaching at the Department of XYZ at ABC University. With over 10 years of experience in teaching and research, I specialize in [Your Specialization], focusing on [Research Topics/Interest]. My approach to education is rooted in engaging students with futuristic technologies and innovative research methodologies.</p>
+            <p>I am Professor Justin Howard teaching at the Department Allied Health and Biology. With over a decade of nurrsing experience, adn 6 in the teaching filed of experience, I specialize in preparing prenursing students, focusing on laying doen a foundation knowledge, My approach to education is rooted in engaging students with futuristic technologies and innovative research methodologies.</p>
         </section>
         <section id="courses" class="content-section">
             <h2>Courses</h2>
@@ -91,7 +91,7 @@
         </section>
     </div>
     <footer>
-        <p>Contact me at email@example.com</p>
+        <p>Contact me atjnhoward@campbellsville.edu
     </footer>
 </body>
 </html>
