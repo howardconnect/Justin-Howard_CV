@@ -83,9 +83,9 @@
         <section id="courses" class="content-section">
             <h2>Courses</h2>
             <ul>
-                <li>Course 101: Introduction to XYZ - Exploring the Future</li>
-                <li>Course 201: Advanced Studies in XYZ - Innovation and Design</li>
-                <li>Course 301: XYZ in Modern Research - A Futuristic Approach</li>
+                <li>Course Biology 110: Biolology
+                <li>Course Biology 221: Human anadtom and Phyisiology I
+                <li>Course Biology 222: HuMn Anatomy and Physiolofy II
                 <!-- Add more courses as needed -->
             </ul>
         </section>
