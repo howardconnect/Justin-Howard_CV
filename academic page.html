@@ -3,95 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professor Jane Doe's Academic Page</title>
+    <title>Campbellsville University Resources</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: #121212;
-            color: #fff;
+            background: #f4f4f4;
+            color: #333;
         }
         .container {
-            max-width: 800px;
+            max-width: 960px;
             margin: auto;
             padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         header {
-            background: linear-gradient(135deg, #007cf0, #00dfd8);
-            padding: 40px 0;
-            color: white;
+            background: #005a9c;
+            color: #ffffff;
+            padding: 20px 0;
             text-align: center;
         }
         nav ul {
-            padding: 0;
             list-style: none;
-            text-align: center;
-            margin-bottom: 40px;
+            padding: 0;
         }
         nav ul li {
             display: inline;
-            margin: 0 15px;
+            margin-right: 20px;
         }
         nav ul li a {
+            color: white;
             text-decoration: none;
-            color: #ffffff;
-            background: linear-gradient(135deg, #007cf0, #00dfd8);
-            padding: 8px 15px;
-            border-radius: 20px;
-            transition: background-color 0.3s ease;
-        }
-        nav ul li a:hover {
-            background: linear-gradient(to left, #007cf0, #00dfd8);
-        }
-        .content-section {
-            margin-bottom: 20px;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
-        h1, h2 {
-            font-weight: 500;
         }
         footer {
-            background: #121212;
-            color: #fff;
+            background: #005a9c;
+            color: #ffffff;
             text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Professor Jane Doe</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#courses">Courses</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <section id="about-me" class="content-section">
-            <h2>About Me</h2>
-            <p>I am Professor Jane Doe, teaching at the Department of XYZ at ABC University. With over 10 years of experience in teaching and research, I specialize in [Your Specialization], focusing on [Research Topics/Interest]. My approach to education is rooted in engaging students with futuristic technologies and innovative research methodologies.</p>
-        </section>
-        <section id="courses" class="content-section">
-            <h2>Courses</h2>
+        <h1>Campbellsville University Resources</h1>
+        <nav>
             <ul>
-                <li>Course 101: Introduction to XYZ - Exploring the Future</li>
-                <li>Course 201: Advanced Studies in XYZ - Innovation and Design</li>
-                <li>Course 301: XYZ in Modern Research - A Futuristic Approach</li>
-                <!-- Add more courses as needed -->
+                <li><a href="https://www.campbellsville.edu" target="_blank">CU Main Site</a></li>
+                <li><a href="https://www.campbellsville.edu/about/locations/main-campus/" target="_blank">Main Campus</a></li>
+                <li><a href="https://www.campbellsville.edu/admissions/" target="_blank">Admissions</a></li>
+                <!-- Add more links as needed -->
             </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Campbellsville University</h2>
+            <p>Campbellsville University is a comprehensive, Christian institution that offers non-credit technical programs, along with certificates, associates, undergraduate and graduate programs. The university is dedicated to academic excellence solidly grounded in the liberal arts that fosters personal growth, integrity and professional preparation within a caring environment.</p>
         </section>
+        <!-- You can add more sections here with more details or resources -->
     </div>
     <footer>
-        <p>Contact me at email@example.com</p>
+        <p>For more information, visit <a href="https://www.campbellsville.edu" target="_blank" style="color: #ffffff;">Campbellsville University's official website</a>.</p>
     </footer>
 </body>
 </html>
