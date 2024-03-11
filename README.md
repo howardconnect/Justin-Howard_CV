@@ -1,6 +1,13 @@
 <!DOCTYPE html>
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Curriculum Vitae of Justin N. Howard
+description: Departments of Allied Health and Biology <p>
+Campbellsville University
+Somerset Noe Education Center
+3825 S. HWY 27 
+Somerset, KY 42501
+
+</p>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
