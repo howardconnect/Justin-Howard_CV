@@ -1,53 +1,55 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background-color: #003366; /* Dark blue, similar to CU */
+    background-color: #003366;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
     overflow: hidden;
     background-color: #005a9c;
-    padding: 0;
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li a {
     color: white;
     padding: 14px 20px;
-    display: inline-block;
+    display: block;
     text-decoration: none;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, nav ul li a:focus {
     background-color: #004c8c;
 }
 
 main {
     padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 footer {
     background-color: #003366;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     position: relative;
@@ -55,14 +57,46 @@ footer {
     width: 100%;
 }
 
-.experience h4 {
-    display: flex;
-    justify-content: space-between;
+.experience {
+    background-color: #eef2f7;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.years {
-    margin-left: auto;
+.experience .title, .experience .years {
+    display: block;
+    text-align: left;
+    font-weight: bold;
 }
 
-/* Ensure the below styles are included in your main CSS file or within a <style> tag in the head of your index.html */
+.experience .years {
+    text-align: right;
+    font-weight: normal;
+}
 
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .experience .title, .experience .years {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .experience .years {
+        display: block;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    nav ul li {
+        display: block;
+    }
+}
