@@ -1,10 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Lora', serif;
+    color: black; /* Ensures text is easily readable */
+}
+
+.top-banner {
+    background-color: #93001b; /* Deep red background */
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+}
+
+.top-nav li a {
+    color: white; /* White text for contrast */
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px; /* Adjust size for readability */
+}
+
+.top-nav li a:hover {
+    background-color: white;
+    color: #93001b; /* Swap colors on hover */
+}
+
+.icon-placeholder {
+    margin-left: 20px;
+    font-size: 24px; /* Adjust icon size as needed */
+}
+
+/* Include media queries for responsiveness */
+@media (max-width: 600px) {
+    .top-nav ul {
+        flex-direction: column;
+    }
 }
 
 header {
