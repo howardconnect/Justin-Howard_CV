@@ -2,7 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const sections = [
         'contact-info',
         'education',
+        'teaching-experience',
+        'healthcare-ecperience',
         'military-experience',
+        
         // Add other sections as needed
     ];
 
