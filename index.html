@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('healthcare-experience.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('healthcareExperienceSection').innerHTML = data;
+        }).catch(error => console.error('Error loading the section:', error));
+});
+</script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,12 +79,8 @@
             <h3>Continuing Education</h3>
             <!-- Continuing education details -->
         </section>
-        
-        <div class="experience">
-    <h4>Milestone Retirement - Licensed Practical Nurse <span class="years">05/2016 - 10/2018</span></h4>
-    <!-- Details -->
-</div>
-<!-- Repeat for other experiences -->
+
+<div id="healthcareExperienceSection"></div>
 
         
         <section id="humanitarian-work">
