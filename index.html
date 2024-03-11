@@ -4,80 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin N. Howard - Curriculum Vitae</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const sections = [
-                'contact-info',
-                'education',
-                'licenses',
-                'current-appointment',
-                'interests',
-                'teaching-experience',
-                'continuing-education',
-                'healthcare-experience',
-                'humanitarian-work',
-                'military-experience'
-            ];
-
-            sections.forEach(section => {
-                fetch(`${section}.html`)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(`${section}-section`).innerHTML = data;
-                })
-                .catch(error => console.error(`Error loading the ${section} section:`, error));
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="top-banner">
-    <a href="#" class="icon-placeholder"><i class="fas fa-university"></i></a>
-    <nav class="top-nav">
-        <ul>
-            <li><a href="#contact-info-section">Contact Info</a></li>
-            <li><a href="#education-section">Education</a></li>
-            <!-- Add additional links as necessary -->
-        </ul>
-    </nav>
-</div>
-
     <header>
-        <h1>Justin N. Howard</h1>
-        <h2>Curriculum Vitae</h2>
-        <h3>Campbellsville University</h3>
+        <nav>
+            <ul>
+                <li><a href="#contact-info">Contact Information</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#military-experience">Military Experience</a></li>
+                <!-- Add other sections as needed -->
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#contact-info-section">Contact Information</a></li>
-            <li><a href="#education-section">Education</a></li>
-            <li><a href="#licenses-section">Licenses and Certifications</a></li>
-            <li><a href="#current-appointment-section">Current Appointment</a></li>
-            <li><a href="#interests-section">Areas of Interest</a></li>
-            <li><a href="#teaching-experience-section">Teaching Experience</a></li>
-            <li><a href="#continuing-education-section">Continuing Education</a></li>
-            <li><a href="#healthcare-experience-section">Healthcare Experience</a></li>
-            <li><a href="#humanitarian-work-section">Humanitarian and Mission Work</a></li>
-            <li><a href="#military-experience-section">Military Experience</a></li>
-        </ul>
-    </nav>
+    <div id="banner">
+        <i class="fas fa-university"></i> <!-- FontAwesome icon placeholder -->
+        <h1>Justin N. Howard</h1>
+    </div>
     <main>
         <div id="contact-info-section"></div>
         <div id="education-section"></div>
-        <div id="licenses-section"></div>
-        <div id="current-appointment-section"></div>
-        <div id="interests-section"></div>
-        <div id="teaching-experience-section"></div>
-        <div id="continuing-education-section"></div>
-        <div id="healthcare-experience-section"></div>
-        <div id="humanitarian-work-section"></div>
         <div id="military-experience-section"></div>
+        <!-- Load other sections dynamically as done with healthcare-experience -->
     </main>
     <footer>
         <p>&copy; 2024 Justin N. Howard. All rights reserved.</p>
     </footer>
+    <script src="loadSections.js"></script>
 </body>
 </html>
