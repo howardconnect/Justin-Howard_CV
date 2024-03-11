@@ -55,18 +55,13 @@ footer {
     width: 100%;
 }
 
-.experience {
+.experience h4 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.title {
-    text-align: left;
 }
 
 .years {
-    text-align: right;
+    margin-left: auto;
 }
 
 /* Ensure the below styles are included in your main CSS file or within a <style> tag in the head of your index.html */
