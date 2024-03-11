@@ -1,84 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
-
 body {
     font-family: 'Lora', serif;
-    color: black; /* Ensures text is easily readable */
-}
-
-.top-banner {
-    background-color: #93001b; /* Deep red background */
-    color: white;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.top-nav ul {
-    list-style: none;
-    display: flex;
+    color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
-.top-nav li a {
-    color: white; /* White text for contrast */
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 16px; /* Adjust size for readability */
-}
-
-.top-nav li a:hover {
-    background-color: white;
-    color: #93001b; /* Swap colors on hover */
-}
-
-.icon-placeholder {
-    margin-left: 20px;
-    font-size: 24px; /* Adjust icon size as needed */
-}
-
-/* Include media queries for responsiveness */
-@media (max-width: 600px) {
-    .top-nav ul {
-        flex-direction: column;
-    }
-}
-
-header {
-    background-color: #003366;
-    color: #ffffff;
-    padding: 20px 0;
+header, footer {
+    background-color: #93001b;
+    color: white;
     text-align: center;
+    padding: 1rem 0;
 }
 
 nav ul {
     list-style: none;
-    overflow: hidden;
-    background-color: #850000;
     padding: 0;
-    text-align: center;
-    margin: 0;
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
     color: white;
-    padding: 14px 20px;
-    display: block;
     text-decoration: none;
+    font-size: 16px;
 }
 
-nav ul li a:hover, nav ul li a:focus {
-    background-color: #004c8c;
+#banner {
+    background-color: #93001b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-nav ul li a.active {
-    background-color: #007bff;
-    color: #fff;
+#banner i {
+    font-size: 2rem;
+}
+
+main h3 {
+    font-weight: bold;
+    color: #93001b;
 }
 
 main {
@@ -89,46 +53,13 @@ section {
     margin-bottom: 40px;
 }
 
-.experience {
-    background-color: #eef2f7;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.experience h4 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.years {
-    margin-left: auto;
-}
-
-.experience ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-footer {
-    background-color: #003366;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-h1, h2, h3 {
-    margin-top: 0;
-    padding-top: 20px;
+footer p {
+    color: white;
 }
 
 @media (max-width: 600px) {
     nav ul li {
         display: block;
-        text-align: center;
+        margin: 10px 0;
     }
 }
