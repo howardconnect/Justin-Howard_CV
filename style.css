@@ -1,35 +1,68 @@
-/* Add all combined styles here, for example: */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #121212;
+    background: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #005a9c;
     color: #fff;
-}
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-}
-header, footer {
-    background: #007cf0;
-    color: white;
-    text-align: center;
     padding: 20px 0;
-}
-nav ul {
-    padding: 0;
-    list-style: none;
     text-align: center;
 }
+
+.header-content p {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+    overflow: hidden;
+}
+
 nav ul li {
     display: inline;
-    margin: 0 15px;
 }
+
 nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
     text-decoration: none;
-    color: #ffffff;
-    padding: 8px 15px;
-    border-radius: 20px;
 }
-/* And so on, for all combined styles */
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #00dfd8;
+    text-decoration: none;
+}
