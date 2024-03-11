@@ -1,93 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
- 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin N. Howard - Curriculum Vitae</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = [
+                'contact-info',
+                'education',
+                'licenses',
+                'current-appointment',
+                'interests',
+                'teaching-experience',
+                'continuing-education',
+                'healthcare-experience',
+                'humanitarian-work',
+                'military-experience'
+            ];
+
+            sections.forEach(section => {
+                fetch(`${section}.html`)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(`${section}-section`).innerHTML = data;
+                })
+                .catch(error => console.error(`Error loading the ${section} section:`, error));
+            });
+        });
+    </script>
 </head>
-      <script>
-document.addEventListener('DOMContentLoaded', function() {
-    fetch('healthcare-experience.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('healthcareExperienceSection').innerHTML = data;
-        }).catch(error => console.error('Error loading the section:', error));
-});
-</script> 
 <body>
     <header>
         <h1>Justin N. Howard</h1>
         <h2>Curriculum Vitae</h2>
         <h3>Campbellsville University</h3>
-     
     </header>
- 
     <nav>
         <ul>
-            <li><a href="#contact-info">Contact Information</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#licenses">Licenses and Certifications</a></li>
-            <li><a href="#current-appointment">Current Appointment</a></li>
-            <li><a href="#interests">Areas of Interest</a></li>
-            <li><a href="#teaching-experience">Teaching Experience</a></li>
-            <li><a href="#continuing-education">Continuing Education</a></li>
-            <li><a href="#healthcare-experience">Healthcare Experience</a></li>
-            <li><a href="#humanitarian-work">Humanitarian and Mission Work</a></li>
+            <li><a href="#contact-info-section">Contact Information</a></li>
+            <li><a href="#education-section">Education</a></li>
+            <li><a href="#licenses-section">Licenses and Certifications</a></li>
+            <li><a href="#current-appointment-section">Current Appointment</a></li>
+            <li><a href="#interests-section">Areas of Interest</a></li>
+            <li><a href="#teaching-experience-section">Teaching Experience</a></li>
+            <li><a href="#continuing-education-section">Continuing Education</a></li>
+            <li><a href="#healthcare-experience-section">Healthcare Experience</a></li>
+            <li><a href="#humanitarian-work-section">Humanitarian and Mission Work</a></li>
+            <li><a href="#military-experience-section">Military Experience</a></li>
         </ul>
     </nav>
     <main>
-        <section id="contact-info">
-            <h3>Contact Information</h3>
-            <p>Details including the address of the main location and contact methods.</p>
-        </section>
-        
-        <section id="education">
-    <h3>Education and Training</h3>
-    <ul>
-        <li>
-            <strong>Western Kentucky University, Bowling Green</strong> - Master of Science in Biology, May 2022
-        </li>
-        <li>
-            <strong>Spalding University, Louisville, KY, United States</strong> - Bachelor of Science in Natural Science, 2013 <em>(Magna Cum Laude)</em>
-        </li>
-        <li>
-            <strong>Community College of the Air Force, Montgomery, AL, United States</strong> - Associate of Applied Science in Dental Assisting, 2012
-        </li>
-        <li>
-            <strong>Spencerian College, Louisville, KY, United States</strong> - Diploma in Practical Nursing, 2009
-        </li>
-    </ul>
-</section>
-
-        </section>
-        <section id="licenses">
-            <h3>Licenses and Certifications</h3>
-            <!-- LPN, BLS Provider, etc. -->
-        </section>
-        <section id="current-appointment">
-            <h3>Current Appointment</h3>
-            <!-- Instructor roles -->
-        </section>
-        <section id="interests">
-            <h3>Areas of Interest</h3>
-            <!-- Placeholder for content -->
-        </section>
-        <section id="teaching-experience">
-            <h3>Teaching Experience</h3>
-            <!-- Detailed teaching experience by semester -->
-        </section>
-        <section id="continuing-education">
-            <h3>Continuing Education</h3>
-            <!-- Continuing education details -->
-        </section>
-
-     
-<div id="healthcareExperienceSection"></div>
-          <h3>Healthcare Experience</h3>
-    
+        <div id="contact-info-section"></div>
+        <div id="education-section"></div>
+        <div id="licenses-section"></div>
+        <div id="current-appointment-section"></div>
+        <div id="interests-section"></div>
+        <div id="teaching-experience-section"></div>
+        <div id="continuing-education-section"></div>
+        <div id="healthcare-experience-section"></div>
+        <div id="humanitarian-work-section"></div>
+        <div id="military-experience-section"></div>
     </main>
     <footer>
         <p>&copy; 2024 Justin N. Howard. All rights reserved.</p>
