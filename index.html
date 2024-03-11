@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script>
-document.addEventListener('DOMContentLoaded', function() {
-    fetch('healthcare-experience.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('healthcareExperienceSection').innerHTML = data;
-        }).catch(error => console.error('Error loading the section:', error));
-});
-</script>
+ 
 
 <head>
     <meta charset="UTF-8">
@@ -16,6 +8,15 @@ document.addEventListener('DOMContentLoaded', function() {
     <title>Justin N. Howard - Curriculum Vitae</title>
     <link rel="stylesheet" href="style.css">
 </head>
+      <script>
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('healthcare-experience.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('healthcareExperienceSection').innerHTML = data;
+        }).catch(error => console.error('Error loading the section:', error));
+});
+</script> 
 <body>
     <header>
         <h1>Justin N. Howard</h1>
