@@ -18,7 +18,7 @@
                  <li><a href="#healthcare-experience">Healthcare Experience</a></li>
                 
 
-
+                
 
 
                   <li><a href="#military-experience">Military Experience</a></li>
@@ -41,5 +41,18 @@
         <p>&copy; 2024 Justin N. Howard. All rights reserved.</p>
     </footer>
     <script src="loadSections.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+        var educationSection = document.getElementById('education');
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'education.html', true);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                educationSection.innerHTML = xhr.responseText;
+            }
+        };
+        xhr.send();
+    });
+</script>
 </body>
 </html>
