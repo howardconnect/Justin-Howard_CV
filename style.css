@@ -73,5 +73,5 @@ footer p {
     background-color: #f0f0f0; /* Light gray background, change color as needed */
     border-top: 2px dashed #93001b; /* Optional: adds a dashed border at the top */
     border-bottom: 2px dashed #93001b; /* Optional: adds a dashed border at the bottom */
-    margin: 20px 0; /* Adds space above and below the spacer */
+    margin: 1px 0; /* Adds space above and below the spacer */
 }
