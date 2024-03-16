@@ -70,4 +70,8 @@ footer p {
     height: 15px; /* Adjust the height as needed */
     width: 100%;
     clear: both;
+    background-color: #f0f0f0; /* Light gray background, change color as needed */
+    border-top: 0px dashed #93001b; /* Optional: adds a dashed border at the top */
+    border-bottom: 0px dashed #93001b; /* Optional: adds a dashed border at the bottom */
+    margin: 0px 0; /* Adds space above and below the spacer */
 }
