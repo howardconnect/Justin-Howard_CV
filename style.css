@@ -13,6 +13,12 @@ header, footer {
     padding: 1rem 0;
 }
 
+ul {
+    font-size: 18px; /* Adjust the size as needed */
+}
+
+
+
 nav ul {
     list-style: none;
     padding: 0;
