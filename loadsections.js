@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'contact-info',
         'education',
         'teaching-experience',
-        'healthcare-ecperience',
+        'healthcare-experience',
         'military-experience',
         
         // Add other sections as needed
