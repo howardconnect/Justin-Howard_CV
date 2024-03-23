@@ -51,7 +51,7 @@ nav ul li a {
 
 main h3 {
     font-weight: bold;
-    color: #93001b;
+    color: #000000;
 }
 
 main {
@@ -101,4 +101,29 @@ footer p {
 
 .button:focus {
     box-shadow: 0 0 0 2px white, 0 0 0 4px #93001b; /* Adds focus style for accessibility */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light grey border */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Light grey border for cells */
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ccc; /* Slightly thicker border for header */
+}
+
+thead {
+    display: table-header-group; /* Ensures the header is properly aligned */
+}
+
+tbody {
+    display: table-row-group; /* Ensures body content aligns under headers */
 }
