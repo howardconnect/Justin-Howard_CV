@@ -89,6 +89,8 @@ footer p {
     border-radius: 5px; /* Rounded corners */
     cursor: pointer;
     font-size: 16px;
+    font-family: 'Arial', sans-serif; /* Update the font family [Line 92] */
+    text-decoration: none; /* Remove text underline [Line 93] */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
     outline: none; /* Removes the outline to make it look better */
     box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow */
