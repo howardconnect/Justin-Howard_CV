@@ -132,7 +132,7 @@ tbody {
 #contact-info p {
     font-family: 'Lora', serif; /* Assuming your links use this family */
     color: #ffffff; /* Adjust based on your link color */
-    font-size: 20px; /* Adjust based on your link size */
+    font-size: 16px; /* Adjust based on your link size */
     margin: 0; /* Optional: Adjusts spacing around the p tag */
     padding: 10px 0; /* Optional: Adjusts spacing around the p tag */
     text-align: center; /* Centers your contact info, if desired */
