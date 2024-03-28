@@ -42,11 +42,11 @@ nav ul li a {
     text-align: center;
     padding: 20px 0;
     font-size: 24px; /* Added font-size property */
-    font-weight: bold; /* Added font-weight property */
+    font-weight: Bold; /* Added font-weight property */
 }
 
 #banner i {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 main h3 {
